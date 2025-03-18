@@ -69,12 +69,11 @@ function flipCard() {
     audio.play();
   
     const imagen = document.getElementById('bolaamarilla');
-    imagen.src = 'tite.png';
-
     const texto = document.getElementById('non');
 
     if (contador === 0) {
         texto.textContent = 'que';
+        imagen.src = 'tite.png';
       } else if (contador === 1) {
         texto.textContent = 'nomanches';
         imagen.src = 'tite1.png';
