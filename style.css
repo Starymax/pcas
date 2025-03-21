@@ -224,7 +224,7 @@ body {
 }
 
 .hoja-container.salida {
-  transform: rotate(90deg) translateX(-200px);
+  transform: rotate(90deg) translateX(-150px);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -239,7 +239,7 @@ body {
 }
 
 .hoja-container.no-hover:hover {
-  transform: rotate(90deg) translateX(-200px);
+  transform: rotate(90deg) translateX(-150px);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
